@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
+
+// vars Fonts
+
+$mainFont: 'Nunito',sans-serif;
+$secondaryFont: 'Poppins', sans-serif;
+
+// sizes
+
+$textSm:0.8 em;
+$textMd:1 em;
+$textLg:1.5 em;
+$tit: 2.5 em;
+
+
+h1{
+	font-size: $tit;
+	color: $green;
+}
+p{
+	font-size: $textLg;
+	text-align: center;
+	font-weight: bold;
+	
+}

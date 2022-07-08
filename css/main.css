@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap");
+h1 {
+  font-size: 2.5 em;
+  color: rgb(11, 70, 25);
+}
+
+p {
+  font-size: 1.5 em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#botonera {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #458D3D, transparent);
+  background-color: rgba(180, 225, 151, 0.9);
+}
+#botonera img {
+  height: 150px;
+}
+#botonera ul li {
+  list-style: none;
+}
+#botonera ul a {
+  color: rgb(11, 70, 25);
+  font-size: 1.5 em;
+  font-family: "Nunito", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow-x: hidden;
+  background-image: url(../img/f1.jpg);
+}
+body body .btn-primary {
+  background-color: #B4E197;
+  border-color: #B4E197;
+  color: #FFF;
+}
+body body .btn-primary:hover, body body .btn-primary:focus {
+  border-color: #6fb03a;
+  background-color: #6fb03a;
+  color: #FFF;
+}
+body body .btn-primary:active, body body .btn-primary:visited, body body .btn-primary:active:focus, body body .btn-primary:active:hover {
+  border-color: #639d34;
+  background-color: #639d34;
+  color: #FFF;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  background-image: url(../img/lupulo.jpeg);
+  height: 100px;
+  width: 100%;
+  padding: 10px;
+}
+footer h3 {
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: #4E944F;
+  color: #FFFFFF;
+  border: 0px;
+}
+
+.btn:hover {
+  background: #72D162;
+  color: #FFFFFF;
+  border: 0px;
+}
+
+.carousel-item {
+  justify-content: center;
+}
+.carousel-item img {
+  height: 75vh;
+  width: 80%;
+}
+
+section img {
+  height: 150px;
+}
+section p {
+  color: rgb(11, 70, 25);
+  font-size: 1 em;
+}
+
+/*# sourceMappingURL=main.css.map */

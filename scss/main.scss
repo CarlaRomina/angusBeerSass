@@ -1,0 +1,74 @@
+// imports
+
+@import "_vars";
+@import "_fonts";
+@import "_navBar";
+@import "_commons";
+
+body{
+	overflow-x: hidden;
+	background-image: url(../img/f1.jpg);
+	body .btn-primary 
+	{
+    background-color: #B4E197;
+    border-color: #B4E197;
+    color: #FFF; 
+	}
+    body .btn-primary:hover, body .btn-primary:focus {
+      border-color: #6fb03a;
+      background-color: #6fb03a;
+      color: #FFF;
+       }
+    body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:focus, body .btn-primary:active:hover {
+      border-color: #639d34;
+      background-color: #639d34;
+      color: #FFF; 
+}
+
+}
+
+footer{
+	text-align: center;
+	margin-top: 30px;
+	background-image: url(../img/lupulo.jpeg);
+	height: 100px;
+	width: 100%;
+	padding: 10px;
+ 	h3{
+	
+	font-size: 1.2rem;}
+	
+}
+.btn {
+background:#4E944F;
+color:#FFFFFF;
+border:0px;
+}
+
+
+.btn:hover {
+background:#72D162;
+color:#FFFFFF;
+border:0px;
+}
+
+.carousel-item {
+	justify-content: center;
+	 img {
+ 
+  height: 75vh;
+  width:80% ;
+
+}
+}
+
+section{
+	
+	img{
+		height: 150px;
+	}
+	p{
+		color: $green;
+		font-size: $textMd;
+	}
+}

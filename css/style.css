@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+body{
+	max-width: 100%;
+}
+
+/*nav{
+	background-image: url(../img/lupulo.jpeg);
+	opacity:0.9;
+}*/
+
+#botonera img{
+	width: 150px;
+}
+
+nav ul li a{
+			font-size: 1rem;
+			color: #0D0D0D !important;
+			
+		}
+
+nav ul li a:hover{
+			color: #336015;
+			font-weight: 600;
+			font-size:20px;
+			font-size-adjust:30px;
+		}
+
+#botonera{
+	/*background-color:rgba(131, 189, 117,1);*/
+	background: linear-gradient(to bottom,#458D3D, transparent);
+
+}
+
+.carousel-item > img {
+ 
+  height: 75vh;
+  width:100% !important;
+}
+
+
+
+.tex-center{
+	align-items: center;
+	justify-content: center;
+	color: 4E944F;
+}
+
+./*btn-primary, .btn-primary:active, .btn-primary:visited {
+    align-items: center;
+}
+*/
+
+body .btn-primary 
+	{
+    background-color: #B4E197;
+    border-color: #B4E197;
+    color: #FFF; 
+	}
+    body .btn-primary:hover, body .btn-primary:focus {
+      border-color: #6fb03a;
+      background-color: #6fb03a;
+      color: #FFF;
+       }
+    body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:focus, body .btn-primary:active:hover {
+      border-color: #639d34;
+      background-color: #639d34;
+      color: #FFF; 
+}
+
+.tit{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+	font-family: fantasy;
+	color: #4E944F;
+	
+	
+
+}
+
+
+.footer{
+	text-align: center;
+	margin-top: 30px;
+	background-image: url(../img/lupulo.jpeg);
+	height: 100px;
+	width: 100%;
+	padding: 10px;
+
+}
+
+.footer h3{
+	
+	font-size: 1.2rem;
+	
+}
+
+.bg-c{
+	/*width: 100vw;
+	height: 100%;*/
+	background-color: #E9EFC0;
+	border: none;
+}
+
+.img-log{
+	height: 150px;
+}
+
+.text{
+	font-family: fantasy;
+	font-size: 1.1rem;
+	color: #4E944F;
+}
+
+.btn {
+background:#4E944F;
+color:#FFFFFF;
+border:0px;
+}
+
+
+.btn:hover {
+background:#72D162;
+color:#FFFFFF;
+border:0px;
+}
+
+.bg-l{
+	background-image: url(../img/f1.jpg);
+	
+}
+
+h1{
+	font-size: 3rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.aside{
+	width: 90%;
+	height: 100%;
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
+.img-prom{
+	width: 697px;
+	height: 700px;
+
+}
+
+.prod-dest{
+	white-space: nowrap;
+	overflow: hidden;
+	width: 95vw;
+	animation: anim 8s;
+	infinite;
+	align-items: center;
+	
+}
+
+@keyframes anim{
+	from {width: 0;}
+
+}
+
+
+
